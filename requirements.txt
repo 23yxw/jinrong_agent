@@ -1,0 +1,17 @@
+langchain
+langchain-core
+langchain-google-genai
+langchain-openai
+langchain-mcp-adapters
+langgraph
+langchain-qdrant
+qdrant-client
+langchain-community
+sentence-transformers
+torch
+docling
+docling-core
+python-dotenv
+fastembed
+langgraph-checkpoint-sqlite
+yfinance
