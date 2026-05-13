@@ -258,15 +258,6 @@ python validate_runtime.py
 - 项目会自动降级到 `yfinance`
 - 如果你希望优先走 MCP，确认系统存在 `uvx` 命令，并能启动 Yahoo Finance MCP Server
 
-### 4. 为什么 README 里强调不要提交数据目录？
-
-因为以下内容通常是本地运行产物或敏感配置，不适合公开提交：
-
-- `.env`
-- `output/`
-- `qdrant_data/`
-- `data/adaptive_memory/`
-- `data/dialog_state/`
 
 ## Roadmap
 
@@ -276,37 +267,6 @@ python validate_runtime.py
 - [ ] 为检索与回答增加更细粒度的评测指标
 - [ ] 增加可视化架构图和完整 benchmark 示例
 
-## Contributing
 
-欢迎 issue 和 PR。
 
-建议的贡献方式：
 
-1. Fork 本仓库
-2. 新建分支：`git checkout -b feat/your-feature`
-3. 提交修改：`git commit -m "feat: add your feature"`
-4. 推送分支：`git push origin feat/your-feature`
-5. 发起 Pull Request
-
-如果你要贡献新功能，建议同步补充：
-
-- 对应模块说明
-- 必要的环境变量说明
-- 回归检查或最小验证方式
-
-## Security Notes
-
-- 不要提交 `.env`、`qdrant_data/`、`output/`、`data/adaptive_memory/`、`data/dialog_state/`
-- 建议只提交源码、脚本、说明文档和 `.env.example`
-- 如果仓库已经误提交密钥，请立即删除并轮换 Key
-
-## License
-
-当前仓库尚未附带正式开源协议。
-
-如果你准备公开发布，建议补充一个明确的 License 文件，例如：
-
-- MIT License
-- Apache-2.0
-
-在未添加 License 前，默认不建议他人直接分发或商用本仓库代码。
