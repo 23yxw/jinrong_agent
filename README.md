@@ -1,5 +1,3 @@
-# JinRong Agent
-
 面向财报分析与股票研究场景的金融研究智能体系统，集成财报文档检索（RAG）、实时行情查询（Yahoo Finance MCP）和多轮会话状态管理，支持历史财务分析、实时行情查询以及混合问题联合回答。
 
 ## Overview
@@ -259,13 +257,7 @@ python validate_runtime.py
 - 如果你希望优先走 MCP，确认系统存在 `uvx` 命令，并能启动 Yahoo Finance MCP Server
 
 
-## Roadmap
 
-- [ ] 增加 Web/API 服务层，支持前后端交互
-- [ ] 增加更丰富的公司别名库与多语言金融术语库
-- [ ] 支持更多金融数据源和 MCP 工具
-- [ ] 为检索与回答增加更细粒度的评测指标
-- [ ] 增加可视化架构图和完整 benchmark 示例
 
 
 
